@@ -23,10 +23,16 @@
     </div>
 
     <script type="text/javascript">
-        /**
-         * Sorunun cevabını bu yorumdan sonra yazınız.
-         */
 
+        document.write("<hesapla>");
+        for (var x = 9; x <= 0; x++) {        
+        document.write("<bir rakam yazınız>");
+            for (var i = 1; i <= 10; i++) {
+                document.write(x+"x" + i + "=" + x * i + ");
+            }
+            if(x==5)
+            {
+           
 
     </script>
     <div class="clearfix"></div>
@@ -41,9 +47,20 @@
     <span class="cevapNumarasi">Cevap 2 :</span>
     <div id="cevap-2" class="cevapYazdirmaAlani"></div>
     <script type="text/javascript">
-        /**
-         * Sorunun cevabını bu yorumdan sonra yazınız.
-         */
+        <script type="text/javascript">
+        document.write("<table border='5'><tr>");
+        for (var x = 1; x <= 10; x++) {        
+        document.write("<td>");
+            for (var i = 1; i <= 10; i++) {
+                document.write(x+"x" + i + "=" + x * i + "<br/>");
+            }
+            if(x==5)
+            {
+            document.write("</tr><tr>");
+            }
+            document.write("</td>");
+        }    
+        document.write("</tr><table>");
 
     </script>
     <div class="clearfix"></div>
